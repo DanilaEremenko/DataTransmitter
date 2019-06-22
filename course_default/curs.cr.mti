@@ -1,0 +1,50 @@
+C:/Users/kazac/OneDrive/Y4eba/OBT/idea/RX_LVDS.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/RX_LVDS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RX_LVDS
+
+Top level modules:
+	RX_LVDS
+
+} {} {}} C:/Users/kazac/OneDrive/Y4eba/OBT/idea/Top.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} C:/Users/kazac/OneDrive/Y4eba/OBT/idea/block_control.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/block_control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module block_control
+
+Top level modules:
+	block_control
+
+} {} {}} C:/Users/kazac/OneDrive/Y4eba/OBT/idea/pckg_block.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/pckg_block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pckg_block
+
+Top level modules:
+	pckg_block
+
+} {} {}} C:/Users/kazac/OneDrive/Y4eba/OBT/idea/test.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Users/kazac/OneDrive/Y4eba/OBT/idea/FIFO.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/FIFO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} C:/Users/kazac/OneDrive/Y4eba/OBT/idea/TX_LVDS.v {1 {vlog -work work -stats=none C:/Users/kazac/OneDrive/Y4eba/OBT/idea/TX_LVDS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TX_LVDS
+
+Top level modules:
+	TX_LVDS
+
+} {} {}}

@@ -1,0 +1,161 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kazac/OneDrive/Y4eba/OBT/6_semestr/exam
+vblock_control
+Z0 !s110 1561218179
+!i10b 1
+!s100 <;=ZUhb3:UA646igA]?T=3
+I8UGo25JS^[4?IOJHa]UZW2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_lite/sem_6/course_default
+Z3 w1561126406
+8C:/intelFPGA_lite/sem_6/course_default/block_control.v
+FC:/intelFPGA_lite/sem_6/course_default/block_control.v
+L0 4
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1561218179.000000
+!s107 C:/intelFPGA_lite/sem_6/course_default/block_control.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/sem_6/course_default/block_control.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vFIFO
+R0
+!i10b 1
+!s100 b8zi1DE[_MnPR5E9aN;Ve3
+I?@JT0cGfX@VBPRhQOAVRO3
+R1
+R2
+R3
+8C:/intelFPGA_lite/sem_6/course_default/FIFO.v
+FC:/intelFPGA_lite/sem_6/course_default/FIFO.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/sem_6/course_default/FIFO.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/sem_6/course_default/FIFO.v|
+!i113 1
+R6
+R7
+n@f@i@f@o
+vpckg_block
+Z8 !s110 1561218180
+!i10b 1
+!s100 `XL9CXBaI_a_M7:`7lkeE0
+InY^7A8Q08K^C]zIi@H7`[1
+R1
+R2
+R3
+8C:/intelFPGA_lite/sem_6/course_default/pckg_block.v
+FC:/intelFPGA_lite/sem_6/course_default/pckg_block.v
+L0 4
+R4
+r1
+!s85 0
+31
+Z9 !s108 1561218180.000000
+!s107 C:/intelFPGA_lite/sem_6/course_default/pckg_block.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/sem_6/course_default/pckg_block.v|
+!i113 1
+R6
+R7
+vRX_LVDS
+R8
+!i10b 1
+!s100 PNJiObCTMgEF4NlB_jdd61
+I`V>z=eNP?e5lh6k2a2=?h2
+R1
+R2
+R3
+8C:/intelFPGA_lite/sem_6/course_default/RX_LVDS.v
+FC:/intelFPGA_lite/sem_6/course_default/RX_LVDS.v
+L0 4
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/sem_6/course_default/RX_LVDS.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/course_default/RX_LVDS.v|
+!i113 1
+R6
+R7
+n@r@x_@l@v@d@s
+vtest
+R8
+!i10b 1
+!s100 Wl6>@cL]O3m]X7_>=b91:2
+IDWznPPMLm7GQDQ<zNQ1`z1
+R1
+R2
+R3
+8C:/intelFPGA_lite/sem_6/course_default/test.v
+FC:/intelFPGA_lite/sem_6/course_default/test.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/sem_6/course_default/test.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/course_default/test.v|
+!i113 1
+R6
+R7
+vTop
+R8
+!i10b 1
+!s100 oHoenH9ULZ3QR^d9mDaNc3
+IePf@1U]0LD@CXNaJJO6Il0
+R1
+R2
+R3
+8C:/intelFPGA_lite/sem_6/course_default/Top.v
+FC:/intelFPGA_lite/sem_6/course_default/Top.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/sem_6/course_default/Top.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/course_default/Top.v|
+!i113 1
+R6
+R7
+n@top
+vTX_LVDS
+R8
+!i10b 1
+!s100 HOW0Gc`P05@4WEH[YLAUI1
+I>k843YoSD;?e2N62NSSMe2
+R1
+R2
+R3
+8C:/intelFPGA_lite/sem_6/course_default/TX_LVDS.v
+FC:/intelFPGA_lite/sem_6/course_default/TX_LVDS.v
+L0 4
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/sem_6/course_default/TX_LVDS.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/course_default/TX_LVDS.v|
+!i113 1
+R6
+R7
+n@t@x_@l@v@d@s

@@ -1,0 +1,9 @@
+.idea/*
+course_default/output_files
+course_default/db
+course_default/incremental_db
+course_fixed/output_files
+course_fixed/db
+course_fixed/incremental_db
+*.bak
+

@@ -1,0 +1,2 @@
+`define BUFF_SIZE 8
+`define DATA_BYTES_SIZE 4'b100
