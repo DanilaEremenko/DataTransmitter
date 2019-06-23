@@ -8,5 +8,8 @@ course_fixed/incremental_db
 course_fixed_v2/output_files
 course_fixed_v2/db
 course_fixed_v2/incremental_db
+course_fixed_v4/output_files
+course_fixed_v4/db
+course_fixed_v4/incremental_db
 *.bak
 
