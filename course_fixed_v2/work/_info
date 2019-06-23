@@ -1,0 +1,203 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kazac/OneDrive/Y4eba/OBT/6_semestr/exam
+vblock_control
+Z0 !s110 1561317198
+!i10b 1
+!s100 b0ZdUFg3]jeBf49A=Kh^:2
+ITBMha4kRHKTCfe^QB;KOU3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2
+w1561310734
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/block_control.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/block_control.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1561317198.000000
+!s107 params.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/block_control.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/block_control.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vFIFO
+R0
+!i10b 1
+!s100 h>4k[5W2D4HZ5mQBDGSeK2
+I?E`NbT[Dhc:iPi8A273SI2
+R1
+R2
+w1561307744
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/FIFO.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/FIFO.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 params.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/FIFO.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/FIFO.v|
+!i113 1
+R5
+R6
+n@f@i@f@o
+vpckg_block
+R0
+!i10b 1
+!s100 `S;3<VcO^N@L?j;Oo?li43
+IWzgb`6>VTdjNB?j8dhJQS3
+R1
+R2
+w1561312993
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pckg_block.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pckg_block.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 params.vh|pckg_block.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pckg_block.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pckg_block.v|
+!i113 1
+R5
+R6
+vpll_800
+R0
+!i10b 1
+!s100 LQDWCSmFP0Rz8MA@1Lji41
+I`b]DiFIRU7[d^16lQeLV>2
+R1
+R2
+w1561313811
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pll_800_bb.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pll_800_bb.v
+L0 34
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pll_800_bb.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/pll_800_bb.v|
+!i113 1
+R5
+R6
+vRX_LVDS
+R0
+!i10b 1
+!s100 L>OznCNAJVOdDY@7=[24>2
+I<gKR_iljQE`e;n8[igUh@2
+R1
+R2
+w1561313213
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/RX_LVDS.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/RX_LVDS.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 params.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/RX_LVDS.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/RX_LVDS.v|
+!i113 1
+R5
+R6
+n@r@x_@l@v@d@s
+vsyn_block
+R0
+!i10b 1
+!s100 kWPEGfRCB@gJLkO7mOl3m3
+IVX6O:=;GD@iCd6=MQG@5c2
+R1
+R2
+w1561316717
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/syn_block.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/syn_block.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/syn_block.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/syn_block.v|
+!i113 1
+R5
+R6
+vtest
+R0
+!i10b 1
+!s100 1AogGL9mJGoBhPoPzBORT3
+Ia6jSH3Hj=2T4?=bf2[TCc1
+R1
+R2
+w1561310952
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/test.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/test.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 params.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/test.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/test.v|
+!i113 1
+R5
+R6
+vTop
+R0
+!i10b 1
+!s100 IVzg^^IPHV;oKlf@_loE<1
+IIIBj;6MP0]>LfmM2`REK>2
+R1
+R2
+w1561317181
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/Top.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/Top.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 params.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/Top.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/Top.v|
+!i113 1
+R5
+R6
+n@top
+vTX_LVDS
+!s110 1561317199
+!i10b 1
+!s100 GE:_1]z2Pk5[chON<QAQ21
+IQk3cQ;az2O50SU2U=h]OM3
+R1
+R2
+w1561312841
+8C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/TX_LVDS.v
+FC:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/TX_LVDS.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1561317199.000000
+!s107 params.vh|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/TX_LVDS.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/sem_6/DataTransmitter/course_fixed_v2/TX_LVDS.v|
+!i113 1
+R5
+R6
+n@t@x_@l@v@d@s

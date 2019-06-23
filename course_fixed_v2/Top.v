@@ -38,6 +38,9 @@ module Top(
     wire chk_data_en;
     wire [`CH_NUM*8-1:0] chk_data;
     wire tx_rx;
+	
+	wire main_clk;
+	wire sync_clk;
 
 
 //////////////////////////////////////////////////////////////////
@@ -46,6 +49,42 @@ module Top(
 
     assign tx = tx_rx;
 
+
+
+//------------------- GENERATOR -------------------------
+pll_800 generator(
+				.inclk0 			( clk			),
+				.c0				( main_clk	),
+				.c1				( sync_clk	)
+				);
+				
+//------------------- SYNC -------------------------				
+/*syn_block sync_block_1(
+				.clk 				( main_clk					),
+				.syn_clk			( sync_clk					),
+				.data_in			( data_in_fifo_1			),
+				.wrreq			( wr_en_fifo_1				),	
+				.data_out		( rd_dat_fifo_1	)
+				);
+				
+syn_block sync_block_2(
+				.clk 				( main_clk					),
+				.syn_clk			( sync_clk					),
+				.data_in			( data_in_fifo_2			),
+				.wrreq			( wr_en_fifo_2				),	
+				.data_out		( rd_dat_fifo_2	)
+				);
+
+syn_block sync_block_3(
+				.clk 				( main_clk					),
+				.syn_clk			( sync_clk					),
+				.data_in			( data_in_fifo_3			),
+				.wrreq			( wr_en_fifo_3				),	
+				.data_out		( rd_dat_fifo_3	)
+				);
+*/
+	
+//------------------- FIFO -------------------------				
 // Первый буфер входного потока
     FIFO FIFO_1_inst(
         .clk(clk),

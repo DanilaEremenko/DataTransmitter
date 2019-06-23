@@ -25,13 +25,13 @@ module pckg_block(
     // Флаг, сообщающий, что передатчик занят
     input wire tx_busy,
     // Данные для передачи
-    output wire [3*8-1:0] data_out,
+    output wire [`CH_NUM*8-1:0] data_out,
     // Флаг готовности данных для передачи
     output wire tx_ena
 );
-    parameter st_start = 4'b0000, st_h1 = 4'b0001, st_empty_pck = 4'b0010, st_size = 4'b0011, st_tx_fifo_1 = 4'b0100, st_tx_fifo_2 = 4'b0101, st_tx_fifo_3 = 4'b0110, st_S = 4'b0111, st_next = 4'b1000; //Объявляем и кодируем автомат состояний для приёмника
+    parameter st_start = 4'b0000, st_h1 = 4'b0001, st_empty_pck = 4'b0010, st_size = 4'b0011, st_tx_fifo_1 = 4'b0100, st_tx_fifo_2 = 4'b0101, st_tx_fifo_3 = 4'b0110, st_next = 4'b1000; //Объявляем и кодируем автомат состояний для приёмника
     parameter size_data = `DATA_BYTES_SIZE; // Количество байт данных
-    parameter size_signals = 8-1; // Разрядность источников сигнала
+    parameter size_signals = `BUFF_SIZE-1; // Разрядность источников сигнала
     reg [4:0] st = st_start;    // Начальное состояние
     // Объявляем сигналы
     reg rd_en_1 = 1'b0;
@@ -44,8 +44,7 @@ module pckg_block(
     reg [2:0] cnt_byte = 3'b000;
     // СИгналы для вывода наружу
     reg tx_ena_i = 1'b0;
-    reg [3*8-1:0] data_out_i = 24'b0;
-    reg [23:0] sum = 24'b0;
+    reg [`CH_NUM*8-1:0] data_out_i = 8'b0;
     // Вывод наружу
     assign data_out = data_out_i;
     assign next = next_i;
@@ -96,7 +95,7 @@ module pckg_block(
                         begin
                             tx_ena_i <= 1;
                             data_out_i <= 24'h00;
-                            st <= st_S;
+                            st <= st_next;
                         end
                     else
                         tx_ena_i <= 0;
@@ -138,26 +137,18 @@ module pckg_block(
                 st_tx_fifo_3:
                     `send_message(dat_from_fifo_3,rd_en_3)
                 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                // Состояние передачи контрольной суммы
-                //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                st_S:
-                    if (tx_busy == 0)
-                        begin
-                            tx_ena_i <= 1;
-                            data_out_i <= sum;
-                            st <= st_next;
-                        end
-                    else
-                        tx_ena_i <= 0;
-
-                //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 // Состояние конца передачи пакета. ЗАпрашиваем данне для следующего пакета.
                 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 st_next:
                     begin
+					if (tx_busy == 0)
+						tx_ena_i <= 1;
+                    else
+						begin
+                        tx_ena_i <= 0;
                         next_i <= 1;
-                        sum <= 8'b0;
                         st <= st_h1;
+						end
                     end
 
             endcase
